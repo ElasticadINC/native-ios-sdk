@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4FFD305153BF3E800759785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFD304153BF3E800759785 /* UIKit.framework */; };
+		F4FFD307153BF3E800759785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFD306153BF3E800759785 /* Foundation.framework */; };
+		F4FFD309153BF3E800759785 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFD308153BF3E800759785 /* CoreGraphics.framework */; };
+		F4FFD30F153BF3E800759785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4FFD30D153BF3E800759785 /* InfoPlist.strings */; };
+		F4FFD311153BF3E800759785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FFD310153BF3E800759785 /* main.m */; };
+		F4FFD315153BF3E800759785 /* SimpleTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FFD314153BF3E800759785 /* SimpleTableAppDelegate.m */; };
+		F4FFD318153BF3E800759785 /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FFD317153BF3E800759785 /* SimpleTableViewController.m */; };
+		F4FFD326153F019A00759785 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4FFD325153F019A00759785 /* creme_brelee.jpg */; };
+		FAA2B91C19B0630600544E79 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B91B19B0630600544E79 /* MobileCoreServices.framework */; };
+		FAA2B91E19B0630D00544E79 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B91D19B0630D00544E79 /* AdSupport.framework */; };
+		FAA2B92019B0631800544E79 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B91F19B0631800544E79 /* CoreTelephony.framework */; };
+		FAA2B92219B0631F00544E79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B92119B0631F00544E79 /* SystemConfiguration.framework */; };
+		FAA2B93819B0663100544E79 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B93719B0663100544E79 /* Security.framework */; };
+		FAA2B93C19B0716C00544E79 /* SimpleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B93B19B0716C00544E79 /* SimpleTableViewController.xib */; };
+		FAA2B95919B0BF0D00544E79 /* eanative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B95019B0BF0D00544E79 /* eanative.framework */; };
+		FAA2B95A19B0BF0D00544E79 /* close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B95219B0BF0D00544E79 /* close_btn.png */; };
+		FAA2B95B19B0BF0D00544E79 /* close_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B95319B0BF0D00544E79 /* close_btn@2x.png */; };
+		FAA2B95C19B0BF0D00544E79 /* EAAdTableViewCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B95419B0BF0D00544E79 /* EAAdTableViewCell.nib */; };
+		FAA2B95D19B0BF0D00544E79 /* EAAdView-Sample1.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B95519B0BF0D00544E79 /* EAAdView-Sample1.nib */; };
+		FAA2B95E19B0BF0D00544E79 /* EAAdView-Sample2.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B95619B0BF0D00544E79 /* EAAdView-Sample2.nib */; };
+		FAA2B95F19B0BF0D00544E79 /* EAAdView-Sample3.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B95719B0BF0D00544E79 /* EAAdView-Sample3.nib */; };
+		FAA2B96019B0BF0D00544E79 /* EAWebViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B95819B0BF0D00544E79 /* EAWebViewController.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4FFD300153BF3E800759785 /* showingAdsInTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = showingAdsInTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FFD304153BF3E800759785 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4FFD306153BF3E800759785 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4FFD308153BF3E800759785 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4FFD30C153BF3E800759785 /* showingAdsInTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "showingAdsInTable-Info.plist"; sourceTree = "<group>"; };
+		F4FFD30E153BF3E800759785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4FFD310153BF3E800759785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4FFD312153BF3E800759785 /* showingAdsInTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "showingAdsInTable-Prefix.pch"; sourceTree = "<group>"; };
+		F4FFD313153BF3E800759785 /* SimpleTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableAppDelegate.h; sourceTree = "<group>"; };
+		F4FFD314153BF3E800759785 /* SimpleTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableAppDelegate.m; sourceTree = "<group>"; };
+		F4FFD316153BF3E800759785 /* SimpleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
+		F4FFD317153BF3E800759785 /* SimpleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
+		F4FFD325153F019A00759785 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		FAA2B91B19B0630600544E79 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FAA2B91D19B0630D00544E79 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FAA2B91F19B0631800544E79 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FAA2B92119B0631F00544E79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAA2B93719B0663100544E79 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FAA2B93B19B0716C00544E79 /* SimpleTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableViewController.xib; sourceTree = SOURCE_ROOT; };
+		FAA2B95019B0BF0D00544E79 /* eanative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eanative.framework; sourceTree = "<group>"; };
+		FAA2B95219B0BF0D00544E79 /* close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_btn.png; sourceTree = "<group>"; };
+		FAA2B95319B0BF0D00544E79 /* close_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_btn@2x.png"; sourceTree = "<group>"; };
+		FAA2B95419B0BF0D00544E79 /* EAAdTableViewCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAAdTableViewCell.nib; sourceTree = "<group>"; };
+		FAA2B95519B0BF0D00544E79 /* EAAdView-Sample1.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample1.nib"; sourceTree = "<group>"; };
+		FAA2B95619B0BF0D00544E79 /* EAAdView-Sample2.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample2.nib"; sourceTree = "<group>"; };
+		FAA2B95719B0BF0D00544E79 /* EAAdView-Sample3.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample3.nib"; sourceTree = "<group>"; };
+		FAA2B95819B0BF0D00544E79 /* EAWebViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAWebViewController.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4FFD2FD153BF3E800759785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA2B93819B0663100544E79 /* Security.framework in Frameworks */,
+				FAA2B92219B0631F00544E79 /* SystemConfiguration.framework in Frameworks */,
+				FAA2B95919B0BF0D00544E79 /* eanative.framework in Frameworks */,
+				FAA2B92019B0631800544E79 /* CoreTelephony.framework in Frameworks */,
+				FAA2B91E19B0630D00544E79 /* AdSupport.framework in Frameworks */,
+				FAA2B91C19B0630600544E79 /* MobileCoreServices.framework in Frameworks */,
+				F4FFD305153BF3E800759785 /* UIKit.framework in Frameworks */,
+				F4FFD307153BF3E800759785 /* Foundation.framework in Frameworks */,
+				F4FFD309153BF3E800759785 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4FFD2F5153BF3E800759785 = {
+			isa = PBXGroup;
+			children = (
+				F4FFD30A153BF3E800759785 /* showingAdsInTable */,
+				F4FFD303153BF3E800759785 /* Frameworks */,
+				F4FFD301153BF3E800759785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4FFD301153BF3E800759785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFD300153BF3E800759785 /* showingAdsInTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4FFD303153BF3E800759785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2B94F19B0BF0D00544E79 /* eanative.embeddedframework */,
+				FAA2B93719B0663100544E79 /* Security.framework */,
+				FAA2B92119B0631F00544E79 /* SystemConfiguration.framework */,
+				FAA2B91F19B0631800544E79 /* CoreTelephony.framework */,
+				FAA2B91D19B0630D00544E79 /* AdSupport.framework */,
+				FAA2B91B19B0630600544E79 /* MobileCoreServices.framework */,
+				F4FFD304153BF3E800759785 /* UIKit.framework */,
+				F4FFD306153BF3E800759785 /* Foundation.framework */,
+				F4FFD308153BF3E800759785 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4FFD30A153BF3E800759785 /* showingAdsInTable */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2B91A19B062DD00544E79 /* images */,
+				F4FFD313153BF3E800759785 /* SimpleTableAppDelegate.h */,
+				F4FFD314153BF3E800759785 /* SimpleTableAppDelegate.m */,
+				F4FFD316153BF3E800759785 /* SimpleTableViewController.h */,
+				F4FFD317153BF3E800759785 /* SimpleTableViewController.m */,
+				FAA2B93B19B0716C00544E79 /* SimpleTableViewController.xib */,
+				F4FFD30B153BF3E800759785 /* Supporting Files */,
+			);
+			name = showingAdsInTable;
+			path = SimpleTable;
+			sourceTree = "<group>";
+		};
+		F4FFD30B153BF3E800759785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFD30C153BF3E800759785 /* showingAdsInTable-Info.plist */,
+				F4FFD30D153BF3E800759785 /* InfoPlist.strings */,
+				F4FFD310153BF3E800759785 /* main.m */,
+				F4FFD312153BF3E800759785 /* showingAdsInTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA2B91A19B062DD00544E79 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFD325153F019A00759785 /* creme_brelee.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FAA2B94F19B0BF0D00544E79 /* eanative.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2B95019B0BF0D00544E79 /* eanative.framework */,
+				FAA2B95119B0BF0D00544E79 /* Resources */,
+			);
+			path = eanative.embeddedframework;
+			sourceTree = "<group>";
+		};
+		FAA2B95119B0BF0D00544E79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA2B95219B0BF0D00544E79 /* close_btn.png */,
+				FAA2B95319B0BF0D00544E79 /* close_btn@2x.png */,
+				FAA2B95419B0BF0D00544E79 /* EAAdTableViewCell.nib */,
+				FAA2B95519B0BF0D00544E79 /* EAAdView-Sample1.nib */,
+				FAA2B95619B0BF0D00544E79 /* EAAdView-Sample2.nib */,
+				FAA2B95719B0BF0D00544E79 /* EAAdView-Sample3.nib */,
+				FAA2B95819B0BF0D00544E79 /* EAWebViewController.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4FFD2FF153BF3E800759785 /* showingAdsInTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FFD31E153BF3E900759785 /* Build configuration list for PBXNativeTarget "showingAdsInTable" */;
+			buildPhases = (
+				F4FFD2FC153BF3E800759785 /* Sources */,
+				F4FFD2FD153BF3E800759785 /* Frameworks */,
+				F4FFD2FE153BF3E800759785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = showingAdsInTable;
+			productName = SimpleTable;
+			productReference = F4FFD300153BF3E800759785 /* showingAdsInTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4FFD2F7153BF3E800759785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SimpleTable;
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = F4FFD2FA153BF3E800759785 /* Build configuration list for PBXProject "showingAdsInTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4FFD2F5153BF3E800759785;
+			productRefGroup = F4FFD301153BF3E800759785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4FFD2FF153BF3E800759785 /* showingAdsInTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4FFD2FE153BF3E800759785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA2B95D19B0BF0D00544E79 /* EAAdView-Sample1.nib in Resources */,
+				FAA2B96019B0BF0D00544E79 /* EAWebViewController.nib in Resources */,
+				FAA2B95C19B0BF0D00544E79 /* EAAdTableViewCell.nib in Resources */,
+				FAA2B95E19B0BF0D00544E79 /* EAAdView-Sample2.nib in Resources */,
+				F4FFD30F153BF3E800759785 /* InfoPlist.strings in Resources */,
+				FAA2B95F19B0BF0D00544E79 /* EAAdView-Sample3.nib in Resources */,
+				FAA2B95A19B0BF0D00544E79 /* close_btn.png in Resources */,
+				F4FFD326153F019A00759785 /* creme_brelee.jpg in Resources */,
+				FAA2B93C19B0716C00544E79 /* SimpleTableViewController.xib in Resources */,
+				FAA2B95B19B0BF0D00544E79 /* close_btn@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4FFD2FC153BF3E800759785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FFD311153BF3E800759785 /* main.m in Sources */,
+				F4FFD315153BF3E800759785 /* SimpleTableAppDelegate.m in Sources */,
+				F4FFD318153BF3E800759785 /* SimpleTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4FFD30D153BF3E800759785 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4FFD30E153BF3E800759785 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4FFD31C153BF3E900759785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4FFD31D153BF3E900759785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4FFD31F153BF3E900759785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eanative.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/showingAdsInTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTable/showingAdsInTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = showingAdsInTable;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4FFD320153BF3E900759785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eanative.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/showingAdsInTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTable/showingAdsInTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = showingAdsInTable;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4FFD2FA153BF3E800759785 /* Build configuration list for PBXProject "showingAdsInTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FFD31C153BF3E900759785 /* Debug */,
+				F4FFD31D153BF3E900759785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FFD31E153BF3E900759785 /* Build configuration list for PBXNativeTarget "showingAdsInTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FFD31F153BF3E900759785 /* Debug */,
+				F4FFD320153BF3E900759785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4FFD2F7153BF3E800759785 /* Project object */;
+}
