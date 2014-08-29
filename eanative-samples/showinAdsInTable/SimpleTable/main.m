@@ -2,8 +2,8 @@
 //  main.m
 //  SimpleTable
 //
-//  Created by Simon Ng on 16/4/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by eanative.
+//  Copyright (c) 2014 eanative. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
