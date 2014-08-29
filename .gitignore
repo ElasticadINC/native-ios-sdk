@@ -1,18 +1,4 @@
-# Eclipse
-.classpath
-.settings
-.checkstyle
-out
-
-# IntelliJ IDEA
-.idea
-*.iml
-*.ipr
-*.iws
-classes
-
 # Other
 .DS_Store
 tmp
 *.swp
-atlassian-ide-plugin.xml
