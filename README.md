@@ -9,6 +9,9 @@ See our [Quickstart Guide](https://native.atlassian.net/wiki/display/NMS/Integra
 
 Change Log
 ===========
+**Version 1.1** - *Mar 4, 2015*
+* Bug fixing.
+
 **Version 1.0** - *Aug 4, 2014*
 * First public release!
 
