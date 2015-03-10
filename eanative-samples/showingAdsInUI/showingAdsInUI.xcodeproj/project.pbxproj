@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10DDA6531AAF3BCE00601FD6 /* eanative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DDA64A1AAF3BCE00601FD6 /* eanative.framework */; };
+		10DDA6541AAF3BCE00601FD6 /* close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA64C1AAF3BCE00601FD6 /* close_btn.png */; };
+		10DDA6551AAF3BCE00601FD6 /* close_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA64D1AAF3BCE00601FD6 /* close_btn@2x.png */; };
+		10DDA6561AAF3BCE00601FD6 /* EAAdTableViewCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA64E1AAF3BCE00601FD6 /* EAAdTableViewCell.nib */; };
+		10DDA6571AAF3BCE00601FD6 /* EAAdView-Sample1.nib in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA64F1AAF3BCE00601FD6 /* EAAdView-Sample1.nib */; };
+		10DDA6581AAF3BCE00601FD6 /* EAAdView-Sample2.nib in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA6501AAF3BCE00601FD6 /* EAAdView-Sample2.nib */; };
+		10DDA6591AAF3BCE00601FD6 /* EAAdView-Sample3.nib in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA6511AAF3BCE00601FD6 /* EAAdView-Sample3.nib */; };
+		10DDA65A1AAF3BCE00601FD6 /* EAWebViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA6521AAF3BCE00601FD6 /* EAWebViewController.nib */; };
 		FAA2B7E719AF031100544E79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B7E619AF031100544E79 /* Foundation.framework */; };
 		FAA2B7E919AF031100544E79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B7E819AF031100544E79 /* CoreGraphics.framework */; };
 		FAA2B7EB19AF031100544E79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B7EA19AF031100544E79 /* UIKit.framework */; };
@@ -26,14 +34,6 @@
 		FAA2B82119AF03A900544E79 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B82019AF03A900544E79 /* AdSupport.framework */; };
 		FAA2B82319AF03B500544E79 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B82219AF03B500544E79 /* MobileCoreServices.framework */; };
 		FAA2B82519AF03C900544E79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B82419AF03C900544E79 /* SystemConfiguration.framework */; };
-		FAA2B86D19AF089E00544E79 /* eanative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B86419AF089E00544E79 /* eanative.framework */; };
-		FAA2B86E19AF089E00544E79 /* close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B86619AF089E00544E79 /* close_btn.png */; };
-		FAA2B86F19AF089E00544E79 /* close_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B86719AF089E00544E79 /* close_btn@2x.png */; };
-		FAA2B87019AF089E00544E79 /* EAAdTableViewCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B86819AF089E00544E79 /* EAAdTableViewCell.nib */; };
-		FAA2B87119AF089E00544E79 /* EAAdView-Sample1.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B86919AF089E00544E79 /* EAAdView-Sample1.nib */; };
-		FAA2B87219AF089E00544E79 /* EAAdView-Sample2.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B86A19AF089E00544E79 /* EAAdView-Sample2.nib */; };
-		FAA2B87319AF089E00544E79 /* EAAdView-Sample3.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B86B19AF089E00544E79 /* EAAdView-Sample3.nib */; };
-		FAA2B87419AF089E00544E79 /* EAWebViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = FAA2B86C19AF089E00544E79 /* EAWebViewController.nib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10DDA64A1AAF3BCE00601FD6 /* eanative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eanative.framework; sourceTree = "<group>"; };
+		10DDA64C1AAF3BCE00601FD6 /* close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_btn.png; sourceTree = "<group>"; };
+		10DDA64D1AAF3BCE00601FD6 /* close_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_btn@2x.png"; sourceTree = "<group>"; };
+		10DDA64E1AAF3BCE00601FD6 /* EAAdTableViewCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAAdTableViewCell.nib; sourceTree = "<group>"; };
+		10DDA64F1AAF3BCE00601FD6 /* EAAdView-Sample1.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample1.nib"; sourceTree = "<group>"; };
+		10DDA6501AAF3BCE00601FD6 /* EAAdView-Sample2.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample2.nib"; sourceTree = "<group>"; };
+		10DDA6511AAF3BCE00601FD6 /* EAAdView-Sample3.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample3.nib"; sourceTree = "<group>"; };
+		10DDA6521AAF3BCE00601FD6 /* EAWebViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAWebViewController.nib; sourceTree = "<group>"; };
 		FAA2B7E319AF031100544E79 /* showingAdsInUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = showingAdsInUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2B7E619AF031100544E79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAA2B7E819AF031100544E79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,14 +79,6 @@
 		FAA2B82019AF03A900544E79 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		FAA2B82219AF03B500544E79 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FAA2B82419AF03C900544E79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		FAA2B86419AF089E00544E79 /* eanative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eanative.framework; sourceTree = "<group>"; };
-		FAA2B86619AF089E00544E79 /* close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_btn.png; sourceTree = "<group>"; };
-		FAA2B86719AF089E00544E79 /* close_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_btn@2x.png"; sourceTree = "<group>"; };
-		FAA2B86819AF089E00544E79 /* EAAdTableViewCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAAdTableViewCell.nib; sourceTree = "<group>"; };
-		FAA2B86919AF089E00544E79 /* EAAdView-Sample1.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample1.nib"; sourceTree = "<group>"; };
-		FAA2B86A19AF089E00544E79 /* EAAdView-Sample2.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample2.nib"; sourceTree = "<group>"; };
-		FAA2B86B19AF089E00544E79 /* EAAdView-Sample3.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample3.nib"; sourceTree = "<group>"; };
-		FAA2B86C19AF089E00544E79 /* EAWebViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAWebViewController.nib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				FAA2B82519AF03C900544E79 /* SystemConfiguration.framework in Frameworks */,
 				FAA2B82319AF03B500544E79 /* MobileCoreServices.framework in Frameworks */,
 				FAA2B82119AF03A900544E79 /* AdSupport.framework in Frameworks */,
-				FAA2B86D19AF089E00544E79 /* eanative.framework in Frameworks */,
+				10DDA6531AAF3BCE00601FD6 /* eanative.framework in Frameworks */,
 				FAA2B81F19AF039F00544E79 /* CoreTelephony.framework in Frameworks */,
 				FAA2B7E919AF031100544E79 /* CoreGraphics.framework in Frameworks */,
 				FAA2B7EB19AF031100544E79 /* UIKit.framework in Frameworks */,
@@ -110,6 +110,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10DDA6491AAF3BCE00601FD6 /* eanative.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				10DDA64A1AAF3BCE00601FD6 /* eanative.framework */,
+				10DDA64B1AAF3BCE00601FD6 /* Resources */,
+			);
+			path = eanative.embeddedframework;
+			sourceTree = "<group>";
+		};
+		10DDA64B1AAF3BCE00601FD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10DDA64C1AAF3BCE00601FD6 /* close_btn.png */,
+				10DDA64D1AAF3BCE00601FD6 /* close_btn@2x.png */,
+				10DDA64E1AAF3BCE00601FD6 /* EAAdTableViewCell.nib */,
+				10DDA64F1AAF3BCE00601FD6 /* EAAdView-Sample1.nib */,
+				10DDA6501AAF3BCE00601FD6 /* EAAdView-Sample2.nib */,
+				10DDA6511AAF3BCE00601FD6 /* EAAdView-Sample3.nib */,
+				10DDA6521AAF3BCE00601FD6 /* EAWebViewController.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FAA2B7DA19AF031100544E79 = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +155,7 @@
 		FAA2B7E519AF031100544E79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FAA2B86319AF089E00544E79 /* eanative.embeddedframework */,
+				10DDA6491AAF3BCE00601FD6 /* eanative.embeddedframework */,
 				FAA2B82419AF03C900544E79 /* SystemConfiguration.framework */,
 				FAA2B82219AF03B500544E79 /* MobileCoreServices.framework */,
 				FAA2B82019AF03A900544E79 /* AdSupport.framework */,
@@ -187,29 +210,6 @@
 				FAA2B81119AF031100544E79 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FAA2B86319AF089E00544E79 /* eanative.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				FAA2B86419AF089E00544E79 /* eanative.framework */,
-				FAA2B86519AF089E00544E79 /* Resources */,
-			);
-			path = eanative.embeddedframework;
-			sourceTree = "<group>";
-		};
-		FAA2B86519AF089E00544E79 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FAA2B86619AF089E00544E79 /* close_btn.png */,
-				FAA2B86719AF089E00544E79 /* close_btn@2x.png */,
-				FAA2B86819AF089E00544E79 /* EAAdTableViewCell.nib */,
-				FAA2B86919AF089E00544E79 /* EAAdView-Sample1.nib */,
-				FAA2B86A19AF089E00544E79 /* EAAdView-Sample2.nib */,
-				FAA2B86B19AF089E00544E79 /* EAAdView-Sample3.nib */,
-				FAA2B86C19AF089E00544E79 /* EAWebViewController.nib */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,14 +288,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA2B86F19AF089E00544E79 /* close_btn@2x.png in Resources */,
-				FAA2B87119AF089E00544E79 /* EAAdView-Sample1.nib in Resources */,
+				10DDA6551AAF3BCE00601FD6 /* close_btn@2x.png in Resources */,
+				10DDA6571AAF3BCE00601FD6 /* EAAdView-Sample1.nib in Resources */,
 				FAA2B7FD19AF031100544E79 /* Main_iPad.storyboard in Resources */,
-				FAA2B87319AF089E00544E79 /* EAAdView-Sample3.nib in Resources */,
-				FAA2B87419AF089E00544E79 /* EAWebViewController.nib in Resources */,
-				FAA2B86E19AF089E00544E79 /* close_btn.png in Resources */,
-				FAA2B87219AF089E00544E79 /* EAAdView-Sample2.nib in Resources */,
-				FAA2B87019AF089E00544E79 /* EAAdTableViewCell.nib in Resources */,
+				10DDA6591AAF3BCE00601FD6 /* EAAdView-Sample3.nib in Resources */,
+				10DDA65A1AAF3BCE00601FD6 /* EAWebViewController.nib in Resources */,
+				10DDA6541AAF3BCE00601FD6 /* close_btn.png in Resources */,
+				10DDA6581AAF3BCE00601FD6 /* EAAdView-Sample2.nib in Resources */,
+				10DDA6561AAF3BCE00601FD6 /* EAAdTableViewCell.nib in Resources */,
 				FAA2B80219AF031100544E79 /* Images.xcassets in Resources */,
 				FAA2B7FA19AF031100544E79 /* Main_iPhone.storyboard in Resources */,
 				FAA2B7F119AF031100544E79 /* InfoPlist.strings in Resources */,
@@ -542,6 +542,7 @@
 				FAA2B81A19AF031200544E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA2B81B19AF031200544E79 /* Build configuration list for PBXNativeTarget "showingAdsInUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +551,7 @@
 				FAA2B81D19AF031200544E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
