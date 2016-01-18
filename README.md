@@ -10,6 +10,7 @@ See our [Quickstart Guide](https://native.atlassian.net/wiki/display/NMS/Integra
 Change Log
 ===========
 **Version 3.0.5** - *Jan 18, 2016*
+
 New major release:
 - VAST teaser support
 - Custom query params
