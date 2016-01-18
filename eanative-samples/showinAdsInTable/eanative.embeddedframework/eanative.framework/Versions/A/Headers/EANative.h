@@ -22,6 +22,6 @@
 */
 + (void)setTestMode:(NSArray *)testDevices;
 
-+ (void)setDevMode:(NSString *)devMode;
++ (void)setEnviroment:(EAEnvMode)enviroment;
 
 @end

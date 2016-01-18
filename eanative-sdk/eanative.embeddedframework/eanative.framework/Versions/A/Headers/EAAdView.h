@@ -25,6 +25,9 @@
 /* The image view which will be used to display the ad image. */
 @property (nonatomic, weak) IBOutlet UIImageView *imageView;
 
+/* The icon used when teaser is a video ad, it will be hided otherwise. */
+@property (nonatomic, weak) IBOutlet UIImageView *playIcon;
+
 /* The label which will be used to display the brand name. */
 @property (nonatomic, weak) IBOutlet UILabel *brandNameLabel;
 

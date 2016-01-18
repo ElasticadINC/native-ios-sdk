@@ -15,5 +15,9 @@
 @property (nonatomic, copy) NSString *scaleImageLandscape;
 @property (nonatomic, copy) NSString *scaleImageLargeLandscape;
 @property (nonatomic, copy) NSString *scaleBrandLogo;
+@property (nonatomic, copy) NSString *testHash;
+@property (nonatomic, assign) BOOL enableVastTeaser;
+@property (nonatomic, copy) NSString *callToActionText;
+@property (nonatomic, strong) NSMutableDictionary *queryStringParams;
 
 @end

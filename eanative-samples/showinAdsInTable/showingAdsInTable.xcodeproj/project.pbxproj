@@ -15,6 +15,7 @@
 		10DDA6461AAF3A4900601FD6 /* EAAdView-Sample2.nib in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA63E1AAF3A4900601FD6 /* EAAdView-Sample2.nib */; };
 		10DDA6471AAF3A4900601FD6 /* EAAdView-Sample3.nib in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA63F1AAF3A4900601FD6 /* EAAdView-Sample3.nib */; };
 		10DDA6481AAF3A4900601FD6 /* EAWebViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 10DDA6401AAF3A4900601FD6 /* EAWebViewController.nib */; };
+		B15075D91C4D22D400A779BF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15075D81C4D22D400A779BF /* MediaPlayer.framework */; };
 		F4FFD305153BF3E800759785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFD304153BF3E800759785 /* UIKit.framework */; };
 		F4FFD307153BF3E800759785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFD306153BF3E800759785 /* Foundation.framework */; };
 		F4FFD309153BF3E800759785 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FFD308153BF3E800759785 /* CoreGraphics.framework */; };
@@ -40,6 +41,7 @@
 		10DDA63E1AAF3A4900601FD6 /* EAAdView-Sample2.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample2.nib"; sourceTree = "<group>"; };
 		10DDA63F1AAF3A4900601FD6 /* EAAdView-Sample3.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample3.nib"; sourceTree = "<group>"; };
 		10DDA6401AAF3A4900601FD6 /* EAWebViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAWebViewController.nib; sourceTree = "<group>"; };
+		B15075D81C4D22D400A779BF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		F4FFD300153BF3E800759785 /* showingAdsInTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = showingAdsInTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FFD304153BF3E800759785 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4FFD306153BF3E800759785 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15075D91C4D22D400A779BF /* MediaPlayer.framework in Frameworks */,
 				FAA2B93819B0663100544E79 /* Security.framework in Frameworks */,
 				FAA2B92219B0631F00544E79 /* SystemConfiguration.framework in Frameworks */,
 				10DDA6411AAF3A4900601FD6 /* eanative.framework in Frameworks */,
@@ -124,6 +127,7 @@
 		F4FFD303153BF3E800759785 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B15075D81C4D22D400A779BF /* MediaPlayer.framework */,
 				10DDA6371AAF3A4900601FD6 /* eanative.embeddedframework */,
 				FAA2B93719B0663100544E79 /* Security.framework */,
 				FAA2B92119B0631F00544E79 /* SystemConfiguration.framework */,
@@ -198,7 +202,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SimpleTable;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = F4FFD2FA153BF3E800759785 /* Build configuration list for PBXProject "showingAdsInTable" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -277,8 +281,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -314,6 +320,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -339,8 +346,11 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleTable/showingAdsInTable-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "SimpleTable/showingAdsInTable-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "eanative.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = showingAdsInTable;
 				WRAPPER_EXTENSION = app;
 			};
@@ -357,8 +367,11 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleTable/showingAdsInTable-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "SimpleTable/showingAdsInTable-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "eanative.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = showingAdsInTable;
 				WRAPPER_EXTENSION = app;
 			};

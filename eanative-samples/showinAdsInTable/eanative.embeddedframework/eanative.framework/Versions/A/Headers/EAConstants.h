@@ -21,6 +21,11 @@ typedef enum : NSUInteger {
     EAAdImageType_LargeLandscape
 } EAAdImageType;
 
+typedef enum : NSUInteger {
+    EAEnv_Dev,
+    EAEnv_PreLive,
+    EAEnv_Live
+} EAEnvMode;
 
 
 
