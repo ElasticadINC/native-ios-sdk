@@ -9,6 +9,10 @@ See our [Quickstart Guide](https://native.atlassian.net/wiki/display/NMS/Integra
 
 Change Log
 ===========
+**Version 3.0.7** - *Feb 22, 2016*
+
+SDK bug fix - ability to use multiple keys in same app.
+
 **Version 3.0.6** - *Jan 21, 2016*
 
 Minor changes to sample3 ad layout
