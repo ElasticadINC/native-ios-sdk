@@ -16,11 +16,13 @@
 @end
 
 @implementation EAAlbumAdCell
-- (void) setAdController:(EAAdViewController *)adController{
+- (void) setAdController:(EATestAdViewController *)adController{
     if(_adController!=nil){
         [_adController.view removeFromSuperview];
     }
+    
     _adController = adController;
+    
     adController.view.frame = self.contentView.frame;
     if(adController!=nil){
         [self.contentView addSubview:adController.view];

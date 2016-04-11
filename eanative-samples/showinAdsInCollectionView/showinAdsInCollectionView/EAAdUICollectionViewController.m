@@ -26,6 +26,7 @@ static NSInteger const AdStartPosition = 2;
 
 -(void)viewDidLoad{
     [EANative initializeWithAppKey:@"eanative-test-key"];
+    [EANative setTestMode:@[@"830D7F67-C0DD-4CA4-B239-A6133844BC75"]];
     
     self.photos = [@[] mutableCopy];
     self.ads = [[NSMutableDictionary alloc]init];
@@ -37,9 +38,9 @@ static NSInteger const AdStartPosition = 2;
     NSURL *urlPrefix =
     [NSURL URLWithString:@"https://raw.githubusercontent.com/ElasticadINC/native-ios-sdk/master/eanative-samples/images/"];
     
-    for (NSInteger p = 1; p < 25; p++) {
+    for (NSInteger p = 1; p < 60; p++) {
         // there are up to 26 photos available to load from the code repository
-        NSString *photoFilename = [NSString stringWithFormat:@"thumbnail%ld.jpg",p];
+        NSString *photoFilename = [NSString stringWithFormat:@"thumbnail%ld.jpg",p%25+1];
         NSURL *photoURL = [urlPrefix URLByAppendingPathComponent:photoFilename];
         EAPhoto *photo = [EAPhoto photoWithImageURL:photoURL];
         [self.photos addObject:photo];
@@ -80,9 +81,9 @@ static NSInteger const AdStartPosition = 2;
         [collectionView dequeueReusableCellWithReuseIdentifier:AdCellIdentifier
                                                   forIndexPath:indexPath];
         NSString * keyPosition = [NSString stringWithFormat:@"ad_%d",position];
-        EAAdViewController * adController=[self.ads objectForKey:keyPosition];
+        EATestAdViewController * adController=[self.ads objectForKey:keyPosition];
         if(adController == nil){
-            adController = [[EAAdViewController alloc] init];
+            adController = [[EATestAdViewController alloc] init];
             [self.ads setObject:adController forKey:keyPosition];
         }
         [adCell setAdController:adController];
@@ -147,19 +148,13 @@ static NSInteger const AdStartPosition = 2;
 
 // 1
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if([self isAdCell:indexPath]==true){
-        return [EAAdViewController getAdSize];
-    }else{
-        return CGSizeMake(320, 200);
-    }
-    
+    return CGSizeMake(320, 150);
 }
 
 // 3
 - (UIEdgeInsets)collectionView:
 (UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
-    return UIEdgeInsetsMake(20, 10, 10, 10);
+    return UIEdgeInsetsMake(0,0,0,0);
 }
 
 @end

@@ -8,17 +8,19 @@
 #import <Foundation/Foundation.h>
 
 typedef enum : NSUInteger {
-    EANativeAdFormat_sample1,
-    EANativeAdFormat_sample2,
-    EANativeAdFormat_sample3,
-    EANativeAdFormat_custom
+    EANativeAdFormat_sample1 = 1,
+    EANativeAdFormat_sample2 = 2,
+    EANativeAdFormat_sample3 = 3,
+    EANativeAdFormat_sample4 = 4,
+    EANativeAdFormat_custom = 5
 } EANativeAdFormat;
 
 typedef enum : NSUInteger {
     EAAdImageType_Square,
     EAAdImageType_Portrait,
     EAAdImageType_Landscape,
-    EAAdImageType_LargeLandscape
+    EAAdImageType_LargeLandscape,
+    EAAdImageType_BrandLogo
 } EAAdImageType;
 
 typedef enum : NSUInteger {
@@ -26,6 +28,3 @@ typedef enum : NSUInteger {
     EAEnv_PreLive,
     EAEnv_Live
 } EAEnvMode;
-
-
-

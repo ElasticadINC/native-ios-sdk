@@ -7,9 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class EAAd, EAAdView;
+@class EAAd, EAAdViewController;
 @interface EAAdTableViewCell : UITableViewCell
 
-@property (nonatomic, strong) IBOutlet EAAdView *adView;
-
+@property (nonatomic, strong) EAAdViewController *adView;
+- (void)setAdView:(EAAdViewController *)adView;
 @end

@@ -12,10 +12,10 @@
 
 #endif /* EAAlbumPhotoCell_h */
 #import <UIKit/UIKit.h>
-#import "EAAdViewController.h"
+#import "EATestAdViewController.h"
 
 @interface EAAlbumAdCell : UICollectionViewCell
 
-@property (nonatomic, strong, readwrite) EAAdViewController *adController;
--(void)setAdController:(EAAdViewController *)adController;
+@property (nonatomic, strong, readwrite) EATestAdViewController *adController;
+-(void)setAdController:(EATestAdViewController *)adController;
 @end

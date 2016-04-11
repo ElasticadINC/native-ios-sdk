@@ -10,8 +10,6 @@
 #import "EAConstants.h"
 #import "EAAdConfig.h"
 
-// register in table view as nib
-static NSString *EAAdTableViewCellIdentifier_Custom = @"EAAdTableViewCell";
 
 @interface EATableViewProxy : NSProxy
 
@@ -19,10 +17,16 @@ static NSString *EAAdTableViewCellIdentifier_Custom = @"EAAdTableViewCell";
 
 @property (nonatomic, assign) NSUInteger adStartPosition;
 @property (nonatomic, assign) NSUInteger adFrequency;
-@property (nonatomic, assign) CGFloat adCustomHeight;
-@property (nonatomic, assign) EANativeAdFormat adViewType;
 
-- (id)initWithPlacementID:(NSString *)placementID tableView:(UITableView *)tableView adFormat:(EANativeAdFormat)adFormat config:(EAAdConfig *)config;
-+ (id)proxyWithPlacementID:(NSString *)placementID tableView:(UITableView *)tableView adFormat:(EANativeAdFormat)adFormat config:(EAAdConfig *)config;
+- (id)initWithPlacementID:(NSString *)placementID tableView:(UITableView *)tableView adFormat:(EANativeAdFormat)adFormat config:(EAAdConfig *)config withController:(UIViewController*)controller;
++ (id)proxyWithPlacementID:(NSString *)placementID tableView:(UITableView *)tableView adFormat:(EANativeAdFormat)adFormat config:(EAAdConfig *)config withController:(UIViewController*)controller;
 
+
++ (id)proxyWithCustomFormat:(NSString *)placementID tableView:(UITableView *)tableView imageType:(EAAdImageType)imageType customAdNibName:(NSString *)customNibName customAdHeight:(CGFloat)customAdHeight  config:(EAAdConfig *)config;
+- (id)initWithCustomFormat:(NSString *)placementID tableView:(UITableView *)tableView imageType:(EAAdImageType)imageType customAdNibName:(NSString *)customAdNibName customAdHeight:(CGFloat)customAdHeight  config:(EAAdConfig *)config;
+
+
+- (void)setCustomAdViewType:(EAAdImageType)imageType customAdNibName:(NSString*)customAdNibName customAdHeight:(CGFloat)customAdHeight;
+- (void)setAdViewType:(EANativeAdFormat)adViewType;
+- (void)setAdCustomHeight:(CGFloat)adCustomHeight;
 @end

@@ -8,11 +8,12 @@
 #import <UIKit/UIKit.h>
 #import "EANative.h"
 #import "EAAdConfig.h"
+#import "EAAdMediaView.h"
 
 @protocol EAAdViewDelegate;
 @class EAAd;
 
-@interface EAAdView : UIView
+@interface EAAdViewController : UIViewController
 
 @property (nonatomic, weak) id<EAAdViewDelegate> delegate;
 
@@ -24,6 +25,8 @@
 
 /* The image view which will be used to display the ad image. */
 @property (nonatomic, weak) IBOutlet UIImageView *imageView;
+/* The image view which will be used to display the ad image. */
+@property (nonatomic, weak) IBOutlet EAAdMediaView *mediaView;
 
 /* The icon used when teaser is a video ad, it will be hided otherwise. */
 @property (nonatomic, weak) IBOutlet UIImageView *playIcon;
@@ -44,7 +47,7 @@
 
 @end
 
-@interface EAAdView (Customize)
+@interface EAAdViewController (Customize)
 
 /* Returns a custom ad view initialized from the specified nib file & with the specified image type & configuration. */
 + (id)customAdWithPlacementID:(NSString *)placementID
@@ -61,10 +64,10 @@
 
 @optional
 /* Called when an ad was loaded. */
-- (void)adViewDidReceiveAd:(EAAdView *)adView;
+- (void)adViewDidReceiveAd:(EAAdViewController *)adView;
 
 /* Called when an ad failed. Normally this is because no network connection was available
  or no ads were available (i.e. no fill). */
-- (void)adView:(EAAdView *)view didFailToReceiveAdWithError:(NSError *)error;
+- (void)adView:(EAAdViewController *)view didFailToReceiveAdWithError:(NSError *)error;
 
 @end

@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B15075DB1C4D25F900A779BF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15075DA1C4D25F900A779BF /* MediaPlayer.framework */; };
-		B1DED5A91C7B20C4009205A7 /* eanative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DED59B1C7B20C4009205A7 /* eanative.framework */; };
-		B1DED5AA1C7B20C4009205A7 /* close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DED59D1C7B20C4009205A7 /* close_btn.png */; };
-		B1DED5AB1C7B20C4009205A7 /* close_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DED59E1C7B20C4009205A7 /* close_btn@2x.png */; };
-		B1DED5AC1C7B20C4009205A7 /* EAAdTableViewCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = B1DED59F1C7B20C4009205A7 /* EAAdTableViewCell.nib */; };
-		B1DED5AD1C7B20C4009205A7 /* EAAdView-Sample1.nib in Resources */ = {isa = PBXBuildFile; fileRef = B1DED5A01C7B20C4009205A7 /* EAAdView-Sample1.nib */; };
-		B1DED5AE1C7B20C4009205A7 /* EAAdView-Sample2.nib in Resources */ = {isa = PBXBuildFile; fileRef = B1DED5A11C7B20C4009205A7 /* EAAdView-Sample2.nib */; };
-		B1DED5AF1C7B20C4009205A7 /* EAAdView-Sample3.nib in Resources */ = {isa = PBXBuildFile; fileRef = B1DED5A21C7B20C4009205A7 /* EAAdView-Sample3.nib */; };
-		B1DED5B01C7B20C4009205A7 /* EAWebViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = B1DED5A31C7B20C4009205A7 /* EAWebViewController.nib */; };
-		B1DED5B11C7B20C4009205A7 /* vast_2.0.1.xsd in Resources */ = {isa = PBXBuildFile; fileRef = B1DED5A41C7B20C4009205A7 /* vast_2.0.1.xsd */; };
-		B1DED5B21C7B20C4009205A7 /* video-play-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DED5A51C7B20C4009205A7 /* video-play-32.png */; };
-		B1DED5B31C7B20C4009205A7 /* video-play-32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DED5A61C7B20C4009205A7 /* video-play-32@2x.png */; };
-		B1DED5B41C7B20C4009205A7 /* video-play-64.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DED5A71C7B20C4009205A7 /* video-play-64.png */; };
-		B1DED5B51C7B20C4009205A7 /* video-play-64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DED5A81C7B20C4009205A7 /* video-play-64@2x.png */; };
+		B192005D1CBB8B5D006EBD1B /* eanative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192004E1CBB8B5C006EBD1B /* eanative.framework */; };
+		B192005E1CBB8B5D006EBD1B /* close_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B19200501CBB8B5C006EBD1B /* close_btn.png */; };
+		B192005F1CBB8B5D006EBD1B /* close_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B19200511CBB8B5C006EBD1B /* close_btn@2x.png */; };
+		B19200601CBB8B5D006EBD1B /* EAAdTableViewCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = B19200521CBB8B5C006EBD1B /* EAAdTableViewCell.nib */; };
+		B19200611CBB8B5D006EBD1B /* EAAdView-Sample1.nib in Resources */ = {isa = PBXBuildFile; fileRef = B19200531CBB8B5C006EBD1B /* EAAdView-Sample1.nib */; };
+		B19200621CBB8B5D006EBD1B /* EAAdView-Sample2.nib in Resources */ = {isa = PBXBuildFile; fileRef = B19200541CBB8B5C006EBD1B /* EAAdView-Sample2.nib */; };
+		B19200631CBB8B5D006EBD1B /* EAAdView-Sample3.nib in Resources */ = {isa = PBXBuildFile; fileRef = B19200551CBB8B5C006EBD1B /* EAAdView-Sample3.nib */; };
+		B19200641CBB8B5D006EBD1B /* EAAdView-Sample4.nib in Resources */ = {isa = PBXBuildFile; fileRef = B19200561CBB8B5C006EBD1B /* EAAdView-Sample4.nib */; };
+		B19200651CBB8B5D006EBD1B /* EAWebViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = B19200571CBB8B5C006EBD1B /* EAWebViewController.nib */; };
+		B19200661CBB8B5D006EBD1B /* vast_2.0.1.xsd in Resources */ = {isa = PBXBuildFile; fileRef = B19200581CBB8B5C006EBD1B /* vast_2.0.1.xsd */; };
+		B19200671CBB8B5D006EBD1B /* video-play-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B19200591CBB8B5D006EBD1B /* video-play-32.png */; };
+		B19200681CBB8B5D006EBD1B /* video-play-32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B192005A1CBB8B5D006EBD1B /* video-play-32@2x.png */; };
+		B19200691CBB8B5D006EBD1B /* video-play-64.png in Resources */ = {isa = PBXBuildFile; fileRef = B192005B1CBB8B5D006EBD1B /* video-play-64.png */; };
+		B192006A1CBB8B5D006EBD1B /* video-play-64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B192005C1CBB8B5D006EBD1B /* video-play-64@2x.png */; };
 		FAA2B7E719AF031100544E79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B7E619AF031100544E79 /* Foundation.framework */; };
 		FAA2B7E919AF031100544E79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B7E819AF031100544E79 /* CoreGraphics.framework */; };
 		FAA2B7EB19AF031100544E79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2B7EA19AF031100544E79 /* UIKit.framework */; };
@@ -54,19 +55,20 @@
 
 /* Begin PBXFileReference section */
 		B15075DA1C4D25F900A779BF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		B1DED59B1C7B20C4009205A7 /* eanative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eanative.framework; sourceTree = "<group>"; };
-		B1DED59D1C7B20C4009205A7 /* close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_btn.png; sourceTree = "<group>"; };
-		B1DED59E1C7B20C4009205A7 /* close_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_btn@2x.png"; sourceTree = "<group>"; };
-		B1DED59F1C7B20C4009205A7 /* EAAdTableViewCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAAdTableViewCell.nib; sourceTree = "<group>"; };
-		B1DED5A01C7B20C4009205A7 /* EAAdView-Sample1.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample1.nib"; sourceTree = "<group>"; };
-		B1DED5A11C7B20C4009205A7 /* EAAdView-Sample2.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample2.nib"; sourceTree = "<group>"; };
-		B1DED5A21C7B20C4009205A7 /* EAAdView-Sample3.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample3.nib"; sourceTree = "<group>"; };
-		B1DED5A31C7B20C4009205A7 /* EAWebViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAWebViewController.nib; sourceTree = "<group>"; };
-		B1DED5A41C7B20C4009205A7 /* vast_2.0.1.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vast_2.0.1.xsd; sourceTree = "<group>"; };
-		B1DED5A51C7B20C4009205A7 /* video-play-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-play-32.png"; sourceTree = "<group>"; };
-		B1DED5A61C7B20C4009205A7 /* video-play-32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-play-32@2x.png"; sourceTree = "<group>"; };
-		B1DED5A71C7B20C4009205A7 /* video-play-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-play-64.png"; sourceTree = "<group>"; };
-		B1DED5A81C7B20C4009205A7 /* video-play-64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-play-64@2x.png"; sourceTree = "<group>"; };
+		B192004E1CBB8B5C006EBD1B /* eanative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eanative.framework; sourceTree = "<group>"; };
+		B19200501CBB8B5C006EBD1B /* close_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_btn.png; sourceTree = "<group>"; };
+		B19200511CBB8B5C006EBD1B /* close_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_btn@2x.png"; sourceTree = "<group>"; };
+		B19200521CBB8B5C006EBD1B /* EAAdTableViewCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAAdTableViewCell.nib; sourceTree = "<group>"; };
+		B19200531CBB8B5C006EBD1B /* EAAdView-Sample1.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample1.nib"; sourceTree = "<group>"; };
+		B19200541CBB8B5C006EBD1B /* EAAdView-Sample2.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample2.nib"; sourceTree = "<group>"; };
+		B19200551CBB8B5C006EBD1B /* EAAdView-Sample3.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample3.nib"; sourceTree = "<group>"; };
+		B19200561CBB8B5C006EBD1B /* EAAdView-Sample4.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EAAdView-Sample4.nib"; sourceTree = "<group>"; };
+		B19200571CBB8B5C006EBD1B /* EAWebViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = EAWebViewController.nib; sourceTree = "<group>"; };
+		B19200581CBB8B5C006EBD1B /* vast_2.0.1.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vast_2.0.1.xsd; sourceTree = "<group>"; };
+		B19200591CBB8B5D006EBD1B /* video-play-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-play-32.png"; sourceTree = "<group>"; };
+		B192005A1CBB8B5D006EBD1B /* video-play-32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-play-32@2x.png"; sourceTree = "<group>"; };
+		B192005B1CBB8B5D006EBD1B /* video-play-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-play-64.png"; sourceTree = "<group>"; };
+		B192005C1CBB8B5D006EBD1B /* video-play-64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-play-64@2x.png"; sourceTree = "<group>"; };
 		FAA2B7E319AF031100544E79 /* showingAdsInUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = showingAdsInUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2B7E619AF031100544E79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAA2B7E819AF031100544E79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,7 +102,7 @@
 			files = (
 				B15075DB1C4D25F900A779BF /* MediaPlayer.framework in Frameworks */,
 				FAA2B82519AF03C900544E79 /* SystemConfiguration.framework in Frameworks */,
-				B1DED5A91C7B20C4009205A7 /* eanative.framework in Frameworks */,
+				B192005D1CBB8B5D006EBD1B /* eanative.framework in Frameworks */,
 				FAA2B82319AF03B500544E79 /* MobileCoreServices.framework in Frameworks */,
 				FAA2B82119AF03A900544E79 /* AdSupport.framework in Frameworks */,
 				FAA2B81F19AF039F00544E79 /* CoreTelephony.framework in Frameworks */,
@@ -123,30 +125,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B1DED59A1C7B20C4009205A7 /* eanative.embeddedframework */ = {
+		B192004D1CBB8B5C006EBD1B /* eanative.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				B1DED59B1C7B20C4009205A7 /* eanative.framework */,
-				B1DED59C1C7B20C4009205A7 /* Resources */,
+				B192004E1CBB8B5C006EBD1B /* eanative.framework */,
+				B192004F1CBB8B5C006EBD1B /* Resources */,
 			);
 			path = eanative.embeddedframework;
 			sourceTree = "<group>";
 		};
-		B1DED59C1C7B20C4009205A7 /* Resources */ = {
+		B192004F1CBB8B5C006EBD1B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B1DED59D1C7B20C4009205A7 /* close_btn.png */,
-				B1DED59E1C7B20C4009205A7 /* close_btn@2x.png */,
-				B1DED59F1C7B20C4009205A7 /* EAAdTableViewCell.nib */,
-				B1DED5A01C7B20C4009205A7 /* EAAdView-Sample1.nib */,
-				B1DED5A11C7B20C4009205A7 /* EAAdView-Sample2.nib */,
-				B1DED5A21C7B20C4009205A7 /* EAAdView-Sample3.nib */,
-				B1DED5A31C7B20C4009205A7 /* EAWebViewController.nib */,
-				B1DED5A41C7B20C4009205A7 /* vast_2.0.1.xsd */,
-				B1DED5A51C7B20C4009205A7 /* video-play-32.png */,
-				B1DED5A61C7B20C4009205A7 /* video-play-32@2x.png */,
-				B1DED5A71C7B20C4009205A7 /* video-play-64.png */,
-				B1DED5A81C7B20C4009205A7 /* video-play-64@2x.png */,
+				B19200501CBB8B5C006EBD1B /* close_btn.png */,
+				B19200511CBB8B5C006EBD1B /* close_btn@2x.png */,
+				B19200521CBB8B5C006EBD1B /* EAAdTableViewCell.nib */,
+				B19200531CBB8B5C006EBD1B /* EAAdView-Sample1.nib */,
+				B19200541CBB8B5C006EBD1B /* EAAdView-Sample2.nib */,
+				B19200551CBB8B5C006EBD1B /* EAAdView-Sample3.nib */,
+				B19200561CBB8B5C006EBD1B /* EAAdView-Sample4.nib */,
+				B19200571CBB8B5C006EBD1B /* EAWebViewController.nib */,
+				B19200581CBB8B5C006EBD1B /* vast_2.0.1.xsd */,
+				B19200591CBB8B5D006EBD1B /* video-play-32.png */,
+				B192005A1CBB8B5D006EBD1B /* video-play-32@2x.png */,
+				B192005B1CBB8B5D006EBD1B /* video-play-64.png */,
+				B192005C1CBB8B5D006EBD1B /* video-play-64@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -173,7 +176,7 @@
 		FAA2B7E519AF031100544E79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B1DED59A1C7B20C4009205A7 /* eanative.embeddedframework */,
+				B192004D1CBB8B5C006EBD1B /* eanative.embeddedframework */,
 				B15075DA1C4D25F900A779BF /* MediaPlayer.framework */,
 				FAA2B82419AF03C900544E79 /* SystemConfiguration.framework */,
 				FAA2B82219AF03B500544E79 /* MobileCoreServices.framework */,
@@ -307,22 +310,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1DED5AB1C7B20C4009205A7 /* close_btn@2x.png in Resources */,
-				B1DED5AD1C7B20C4009205A7 /* EAAdView-Sample1.nib in Resources */,
-				B1DED5B51C7B20C4009205A7 /* video-play-64@2x.png in Resources */,
-				B1DED5B41C7B20C4009205A7 /* video-play-64.png in Resources */,
+				B192005F1CBB8B5D006EBD1B /* close_btn@2x.png in Resources */,
+				B19200611CBB8B5D006EBD1B /* EAAdView-Sample1.nib in Resources */,
+				B19200671CBB8B5D006EBD1B /* video-play-32.png in Resources */,
 				FAA2B7FD19AF031100544E79 /* Main_iPad.storyboard in Resources */,
-				B1DED5B11C7B20C4009205A7 /* vast_2.0.1.xsd in Resources */,
-				B1DED5B21C7B20C4009205A7 /* video-play-32.png in Resources */,
-				B1DED5B31C7B20C4009205A7 /* video-play-32@2x.png in Resources */,
-				B1DED5AF1C7B20C4009205A7 /* EAAdView-Sample3.nib in Resources */,
-				B1DED5B01C7B20C4009205A7 /* EAWebViewController.nib in Resources */,
-				B1DED5AA1C7B20C4009205A7 /* close_btn.png in Resources */,
-				B1DED5AE1C7B20C4009205A7 /* EAAdView-Sample2.nib in Resources */,
-				B1DED5AC1C7B20C4009205A7 /* EAAdTableViewCell.nib in Resources */,
+				B19200631CBB8B5D006EBD1B /* EAAdView-Sample3.nib in Resources */,
+				B19200691CBB8B5D006EBD1B /* video-play-64.png in Resources */,
+				B192006A1CBB8B5D006EBD1B /* video-play-64@2x.png in Resources */,
+				B19200661CBB8B5D006EBD1B /* vast_2.0.1.xsd in Resources */,
+				B19200641CBB8B5D006EBD1B /* EAAdView-Sample4.nib in Resources */,
+				B192005E1CBB8B5D006EBD1B /* close_btn.png in Resources */,
+				B19200621CBB8B5D006EBD1B /* EAAdView-Sample2.nib in Resources */,
+				B19200601CBB8B5D006EBD1B /* EAAdTableViewCell.nib in Resources */,
 				FAA2B80219AF031100544E79 /* Images.xcassets in Resources */,
+				B19200651CBB8B5D006EBD1B /* EAWebViewController.nib in Resources */,
 				FAA2B7FA19AF031100544E79 /* Main_iPhone.storyboard in Resources */,
 				FAA2B7F119AF031100544E79 /* InfoPlist.strings in Resources */,
+				B19200681CBB8B5D006EBD1B /* video-play-32@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

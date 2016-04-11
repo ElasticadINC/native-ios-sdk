@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <eanative/EAAdView.h>
+#import <eanative/EAAdViewController.h>
 
 @interface ViewController ()
 
@@ -22,13 +22,14 @@
     // Override point for customization after application launch.
     
     //Create the ad view
-    EAAdView *adView = [EAAdView adWithPlacementID:@"2061" adFormat:EANativeAdFormat_sample1 config:nil];
+    EAAdViewController *adViewController = [EAAdViewController adWithPlacementID:@"2061" adFormat:EANativeAdFormat_sample4 config:nil];
     
     //adjust its position
-    adView.center = CGPointMake(150, 100);
+    adViewController.view.center = CGPointMake(150, 100);
     
+    [self addChildViewController:adViewController];
     //add it to your view hierarchy
-    [self.view addSubview:adView];
+    [self.view addSubview:adViewController.view];
 
     
 	// Do any additional setup after loading the view, typically from a nib.

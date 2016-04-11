@@ -33,7 +33,7 @@
     [EANative initializeWithAppKey:@"eanative-test-key"];
     //Initialize the table view proxy with the desired ad type
     
-    EATableViewProxy *tableViewProxy = [[EATableViewProxy alloc] initWithPlacementID:@"2061" tableView:self.tableViewUI adFormat:EANativeAdFormat_sample1 config:nil];
+    EATableViewProxy *tableViewProxy = [[EATableViewProxy alloc] initWithPlacementID:@"2061" tableView:self.tableViewUI adFormat:EANativeAdFormat_sample1 config:nil withController:self];
     //Configure the table view proxy in regards to the ad start position & ad frequency
     tableViewProxy.adStartPosition = 3;
     tableViewProxy.adFrequency = 5;

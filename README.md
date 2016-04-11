@@ -9,6 +9,17 @@ See our [Quickstart Guide](https://native.atlassian.net/wiki/display/NMS/Integra
 
 Change Log
 ===========
+**Version 4.0.1** - *Apr 11, 2016*
+Braking changes
+EAAdView was removed and added EAAdViewController that controls the ad. See how you can [Display ads in your UI](https://native.atlassian.net/wiki/display/NMS/Display+ads+in+your+UI) 
+
+New Features 
+
+* New MediaView Object that supports
+	* Inline video teaser
+	* Multiple images showed in same teaser
+* New Format - see EANativeAdFormat_sample4
+
 **Version 3.0.7** - *Feb 22, 2016*
 
 SDK bug fix - ability to use multiple keys in same app.

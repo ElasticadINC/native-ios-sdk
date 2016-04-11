@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "eanative/EAAdView.h"
+#import "eanative/EAAdViewController.h"
 
-@interface EAAdViewController : UIViewController<EAAdViewDelegate>
+@interface EATestAdViewController : UIViewController<EAAdViewDelegate>
 
-@property (nonatomic, strong) EAAdView *adView;
-+ (CGSize)getAdSize;
+@property (nonatomic, strong) EAAdViewController *adView;
+
 @end
