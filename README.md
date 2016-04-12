@@ -9,7 +9,7 @@ See our [Quickstart Guide](https://native.atlassian.net/wiki/display/NMS/Integra
 
 Change Log
 ===========
-**Version 4.0.1** - *Apr 11, 2016*
+**Version 4.0.1** - *Apr 12, 2016*
 Braking changes
 EAAdView was removed and added EAAdViewController that controls the ad. See how you can [Display ads in your UI](https://native.atlassian.net/wiki/display/NMS/Display+ads+in+your+UI) 
 
