@@ -221,6 +221,11 @@
 			attributes = {
 				CLASSPREFIX = SimpleTable;
 				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					F4FFD2FF153BF3E800759785 = {
+						DevelopmentTeam = LEP2N7B5ND;
+					};
+				};
 			};
 			buildConfigurationList = F4FFD2FA153BF3E800759785 /* Build configuration list for PBXProject "showingAdsInTable" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -364,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = LEP2N7B5ND;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/eanative.embeddedframework",
@@ -385,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = LEP2N7B5ND;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/eanative.embeddedframework",

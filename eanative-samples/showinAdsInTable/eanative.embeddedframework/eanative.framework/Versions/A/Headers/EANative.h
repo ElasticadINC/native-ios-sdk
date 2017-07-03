@@ -9,7 +9,7 @@
 #import <eanative/EAAdViewController.h>
 #import <eanative/EAAdTableViewCell.h>
 #import <eanative/EATableViewProxy.h>
-#define EA_SDK_VERSION @"4.0.1"
+#define EA_SDK_VERSION @"4.1.0"
 
 @interface EANative : NSObject
 
